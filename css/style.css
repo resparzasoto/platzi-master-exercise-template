@@ -2,44 +2,67 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: lightgray;
     margin: 15px;
+    font-family: 'Lora', serif;
+}
+
+section {
+    background-color: whitesmoke;
+    margin-bottom: 15px;
 }
 
 /* HEADER */
 
 header {
     border: 1px solid red;
-    width:  100%;
+    width: 100%;
     margin-bottom: 15px;
 }
 
 header h1 {
-    margin:  0;
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
 }
 
-header h5 {
-    margin: 5px 0;
+header h4 {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 10px;
 }
 
-header nav .nav-section {
-    background-color: gray;
-    list-style: none;
+header nav ul {
     height: 50px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    list-style: none;
 }
 
-header nav .nav-section li {
-    color: darkred
+header nav ul li {
+    width: 25%;
+    height: inherit;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+    color: darkred;
+}
+
+header nav ul li:nth-child(1) {
+    color: white;
+    background-color: red;
+}
+
+header nav ul li span {
+    font-weight: bold;
 }
 
 /* main */
 
 main {
-    border: 1px solid red;
 }
 
 /* hero section */
@@ -48,12 +71,39 @@ main .hero.section {
     border: 1px solid red;
 }
 
+main .hero.section article {
+    display: flex;
+    align-items: center;
+}
+
 main .hero.section article .hero-text-container {
-    border: 1px solid red;
+    margin-left: 15px;
+}
+
+main .hero.section article .hero-text-container span {
+    font-weight: bold;
+}
+
+main .hero.section article .hero-text-container h2 {
+    margin: 5px 0;
+    color: darkred;
+}
+
+main .hero.section article .hero-text-container p {
 }
 
 main .hero.section article .hero-img-container {
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+main .hero.section article .hero-img-container img {
+    padding: 5px;
+    margin: 15px;
+    border:  1px solid black;
+}
+
+main .hero.section article .hero-img-container {
 }
 
 /* articles section */

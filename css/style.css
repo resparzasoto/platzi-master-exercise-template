@@ -66,12 +66,11 @@ main {}
 /* hero section */
 
 main .hero.section article {
+    padding: 15px;
     display: flex;
-    align-items: center;
 }
 
 main .hero.section article .hero-text-container {
-    margin-left: 15px;
 }
 
 main .hero.section article .hero-text-container span {
@@ -91,7 +90,6 @@ main .hero.section article .hero-img-container {
 
 main .hero.section article .hero-img-container img {
     padding: 5px;
-    margin: 15px;
     border: 1px solid black;
 }
 
@@ -112,7 +110,7 @@ main .articles.section article {
     border-bottom: 1px solid gray;
 }
 
-main .articles.section article:nth-last-child() {
+main .articles.section article:nth-child(4) {
     border: 0px;
 }
 
@@ -159,21 +157,27 @@ main .articles.section article .article-text-container.right strong {
 
 /* bottom section */
 
-main .bottom.section article .bottom-image-container {
-    border: 1px solid red;
+main .bottom.section {
+    padding: 15px;
 }
 
-main .bottom.section article .bottom-text-container {
-    border: 1px solid red;
+main .bottom.section article {
+    display: flex;
+}
+
+main .bottom.section article .bottom-image-container {
+    margin-right: 15px;
 }
 
 /* footer */
 
 footer {
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer img {
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }

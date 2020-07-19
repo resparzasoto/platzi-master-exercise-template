@@ -65,9 +65,6 @@ main .hero.section article {
     display: flex;
 }
 
-main .hero.section article .hero-text-container {
-}
-
 main .hero.section article .hero-text-container span {
     color: darkolivegreen;
     font-weight: bold;

@@ -1,0 +1,37 @@
+{
+  "name": "platzi-master-exercise-template",
+  "version": "1.0.0",
+  "description": "Platzi Master Exercise Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:update": "jest -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resparzasoto/platzi-master-exercise-template.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "npm",
+    "test",
+    "jest"
+  ],
+  "author": "@resparzasoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resparzasoto/platzi-master-exercise-template/issues"
+  },
+  "homepage": "https://github.com/resparzasoto/platzi-master-exercise-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  }
+}

@@ -50,11 +50,6 @@ header nav ul li {
     color: darkred;
 }
 
-header nav ul li:nth-child(1) {
-    color: white;
-    background-color: red;
-}
-
 header nav ul li span {
     font-weight: bold;
 }

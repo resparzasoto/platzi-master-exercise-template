@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    margin: 15px;
+    font-family: 'Lora', serif;
+}
+
+section {
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+header h4 {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    height: 50px;
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    width: 25%;
+    height: inherit;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+    color: darkred;
+}
+
+header nav ul li span {
+    font-weight: bold;
+}
+
+/* main */
+
+main {}
+
+/* hero section */
+
+main .hero.section article {
+    padding: 15px;
+    display: flex;
+}
+
+main .hero.section article .hero-text-container {
+}
+
+main .hero.section article .hero-text-container span {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+main .hero.section article .hero-text-container h2 {
+    margin: 5px 0;
+    color: darkred;
+}
+
+main .hero.section article .hero-img-container {
+    display: flex;
+    align-items: center;
+}
+
+main .hero.section article .hero-img-container img {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+/* articles section */
+
+main .articles.section {
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+main .articles.section article:nth-child(1) {
+    margin-top: 0;
+    border-bottom: 1px solid gray;
+}
+
+main .articles.section article {
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+}
+
+main .articles.section article:nth-child(4) {
+    border: 0px;
+}
+
+main .articles.section article .article-items-container {
+    display: flex;
+}
+
+.article-text-container {
+    padding-bottom: 20px;
+}
+
+.article-text-container.left {
+    display: inherit;
+    flex-flow: column;
+    width: 25%;
+}
+
+main .articles.section article .article-text-container.left strong {
+    color: darkred;
+    font-weight: 400;
+}
+
+main .articles.section article .article-text-container.left small {
+    font-style: italic;
+}
+
+main .articles.section article .article-text-container.right {
+    width: 75%;
+}
+
+main .articles.section article .article-text-container.right h3 {
+    color: darkred;
+    margin-bottom: 10px;
+}
+
+main .articles.section article .article-text-container.right p {
+    margin-bottom: 10px;
+}
+
+main .articles.section article .article-text-container.right strong {
+    color: darkred;
+    font-weight: 400;
+}
+
+/* bottom section */
+
+main .bottom.section {
+    padding: 15px;
+}
+
+main .bottom.section article {
+    display: flex;
+}
+
+main .bottom.section article .bottom-image-container {
+    margin-right: 15px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
